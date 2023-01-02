@@ -1,0 +1,136 @@
+html {
+  background-color: #141519;
+  font-family: "Overpass", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.reviewBox {
+  display: flex;
+  width: 420px;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  background: rgb(23, 30, 40);
+  background: linear-gradient(
+    0deg,
+    rgba(23, 30, 40, 1) 0%,
+    rgba(31, 38, 48, 1) 100%
+  );
+  justify-content: center;
+}
+
+.reviewForm {
+  display: block;
+  position: absolute;
+  width: 360px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+#reviewIcon {
+  position: absolute;
+  background-color: #262f38;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#iconStar {
+  position: absolute;
+  margin-left: 17px;
+  margin-top: 16px;
+}
+
+#reviewHeader {
+  position: absolute;
+  margin-top: 70px;
+}
+
+#reviewParagraph {
+  position: absolute;
+  color: #707781;
+  font-size: 15px;
+  margin-top: 120px;
+}
+#reviewSelections {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.reviewButton {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  color: #707781;
+  background-color: #262f38;
+  margin-right: 15px;
+}
+
+.reviewButton:hover {
+  background-color: #707781;
+  color: white;
+}
+
+.reviewDivRadio {
+  display: none;
+}
+
+#reviewSubmit {
+  position: absolute;
+  color: white;
+  font-family: "Overpass", sans-serif;
+  background-color: #fc7613;
+  border: none;
+  width: 340px;
+  height: 55px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 275px;
+}
+
+#reviewSubmit:hover {
+  background-color: white;
+  color: #fc7613;
+}
+
+#submitThanks {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#submitIcon {
+  margin-top: 20px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submitRating {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  color: #fc7613;
+  background-color: #262f38;
+  width: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+}
+
+#thankYou {
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+#submitText {
+  margin-top: 10px;
+  color: #707781;
+}
