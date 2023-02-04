@@ -4,6 +4,13 @@ html {
   color: hsl(0, 0%, 100%);
 }
 
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .reviewBox {
   display: flex;
   width: 420px;
